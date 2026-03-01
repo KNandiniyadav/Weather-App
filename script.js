@@ -27,7 +27,7 @@ async function getData(){
     loading.textContent = "Loading...";
     resultContainer.append(loading);
 
-    const apiKey = "2a6ec986f343dd2362636aab0c07961f"
+    const apiKey = " ";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityN}&appid=${apiKey}&units=metric`;
 
 
